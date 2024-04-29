@@ -19,10 +19,14 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
 
       - name: Build package
         run: npm run build
+
+      - name: Run tests
+        run: npm test
 
       - name: Authenticate with npm
         run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" > ~/.npmrc

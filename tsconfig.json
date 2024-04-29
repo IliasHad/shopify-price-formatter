@@ -5,7 +5,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "types": ["vite/client", "node"],
+    "types": ["vite/client", "node", "jest"],
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
