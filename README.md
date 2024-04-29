@@ -18,14 +18,14 @@ console.log(formattedPrice); // Output: "$1,134.65"
 ```
 
 Supported Formats
-{{ amount }}: Formats price with two decimal places and uses period as a decimal separator, and comma as a thousand separator.
-{{ amount_no_decimals }}: Formats price without any decimal places and uses comma as a thousand separator.
-{{ amount_with_comma_separator }}: Formats price with two decimal places and uses comma as a thousand separator.
-{{ amount_no_decimals_with_comma_separator }}: Formats price without decimal places and uses comma as a thousand separator.
-{{ amount_with_apostrophe_separator }}: Formats price with two decimal places and uses apostrophe as a thousand separator.
-{{ amount_no_decimals_with_space_separator }}: Formats price without decimal places and uses space as a thousand separator.
-{{ amount_with_space_separator }}: Formats price with two decimal places and uses space as a thousand separator.
-{{ amount_with_period_and_space_separator }}: Formats price with two decimal places and uses period as a thousand separator.
+ - ```{{ amount }}```: Formats price with two decimal places and uses period as a decimal separator, and comma as a thousand separator.
+ - ```{{ amount_no_decimals }}```: Formats price without any decimal places and uses comma as a thousand separator.
+ - ```{{ amount_with_comma_separator }}```: Formats price with two decimal places and uses comma as a thousand separator.
+ - ```{{ amount_no_decimals_with_comma_separator }}```: Formats price without decimal places and uses comma as a thousand separator.
+ - ```{{ amount_with_apostrophe_separator }}```: Formats price with two decimal places and uses apostrophe as a thousand separator.
+ - ```{{ amount_no_decimals_with_space_separator }}```: Formats price without decimal places and uses space as a thousand separator.
+ - ```{{ amount_with_space_separator }}```: Formats price with two decimal places and uses space as a thousand separator.
+ - ```{{ amount_with_period_and_space_separator }}```: Formats price with two decimal places and uses period as a thousand separator.
 
 
 License
@@ -35,5 +35,5 @@ Contributing
 Contributions are welcome! Please read the CONTRIBUTING.md file for guidelines.
 
 Issues
-If you encounter any issues or have suggestions for improvements, please open an issue.
+If you encounter any issues or have suggestions for improvements, please open an [issue](https://github.com/IliasHad/shopify-price-formatter/issues)
 
