@@ -4,8 +4,9 @@ A lightweight package for formatting Shopify product prices according to various
 
 ## Installation
 
-npm install shopify-price-formatter
-
+```bash
+npm i shopify-price-formatter
+```
 
 ## Usage
 
