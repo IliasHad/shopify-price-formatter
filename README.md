@@ -15,7 +15,7 @@ import { formatPrice } from "shopify-price-formatter";
 
 const price = 113465 
 const formattedPrice = formatPrice({ price, format: "{{ amount }}" });
-console.log(formattedPrice); // Output: "$1,134.65"
+console.log(formattedPrice); // Output: "1,134.65"
 ```
 
 Supported Formats
