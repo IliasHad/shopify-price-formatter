@@ -1,0 +1,9 @@
+export type Format =
+  | "{{ amount }}"
+  | "{{ amount_no_decimals }}"
+  | "{{ amount_no_decimals_with_comma_separator }}"
+  | "{{ amount_with_comma_separator }}"
+  | "{{ amount_no_decimals_with_space_separator }}"
+  | "{{ amount_with_period_and_space_separator }}"
+  | "{{ amount_with_space_separator }}"
+  | "{{ amount_with_apostrophe_separator }}";
