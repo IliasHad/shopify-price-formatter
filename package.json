@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Shopify price  formatter",
   "author": "Ilias Haddad <contact@iliashaddad.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "keywords": [
     "vite",
