@@ -4,13 +4,13 @@ A lightweight package for formatting Shopify product prices according to various
 
 ## Installation
 
-npm install @your-package-name/shopify-price-formatter
+npm install shopify-price-formatter
 
 
 ## Usage
 
 ```javascript
-import { formatPrice } from "@your-package-name/shopify-price-formatter";
+import { formatPrice } from "shopify-price-formatter";
 
 const price = 113465 
 const formattedPrice = formatPrice({ price, format: "{{ amount }}" });
