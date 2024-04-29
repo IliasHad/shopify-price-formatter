@@ -5,7 +5,7 @@
   "author": "Ilias Haddad <contact@iliashaddad.com>",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/shopify-price-formatter"
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "ISC",
   "keywords": [
