@@ -4,7 +4,8 @@
   "description": "Shopify price  formatter",
   "author": "Ilias Haddad <contact@iliashaddad.com>",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/shopify-price-formatter"
   },
   "license": "ISC",
   "keywords": [
