@@ -1,13 +1,17 @@
 {
   "name": "shopify-price-formatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shopify price  formatter",
   "author": "Ilias Haddad <contact@iliashaddad.com>",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IliasHad/shopify-price-formatter.git"
+   },
+  "license": "MIT",
   "keywords": [
     "vite",
     "typescript",
